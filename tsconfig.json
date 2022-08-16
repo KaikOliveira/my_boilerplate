@@ -23,8 +23,18 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "skipLibCheck": true,
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@services/*": ["./src/services/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@contexts/*": ["./src/contexts/*"]
+    },
     "incremental": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", ".jest/setup.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", ".jest/setup.ts", "next-env.d.ts"],
   "exclude": ["node_modules", "dist", "src/**/*.test*"]
 }

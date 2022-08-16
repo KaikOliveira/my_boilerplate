@@ -1,0 +1,13 @@
+node_modules
+.next
+yarn.lock
+package-lock.json
+public
+.vercel
+dist
+.jest
+src/ui/assets/*
+.gitattributes
+.gitignore
+.eslintignore
+coverage
