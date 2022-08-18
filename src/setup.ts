@@ -1,1 +1,1 @@
-export const example = 3;
+export const example = 5;
